@@ -1,0 +1,82 @@
+[
+    {
+        "question": "What is artificial intelligence?",
+        "answer": "Artificial Intelligence is a branch of computer science that helps machines perform tasks that usually need human intelligence, such as learning, problem solving, decision making, and understanding language."
+    },
+    {
+        "question": "What is machine learning?",
+        "answer": "Machine Learning is a part of Artificial Intelligence where computers learn patterns from data and make predictions or decisions without being directly programmed for every rule."
+    },
+    {
+        "question": "What is deep learning?",
+        "answer": "Deep Learning is a type of machine learning that uses artificial neural networks to learn from large amounts of data. It is commonly used in image recognition, speech recognition, and natural language processing."
+    },
+    {
+        "question": "What is natural language processing?",
+        "answer": "Natural Language Processing, also called NLP, helps computers understand, process, and respond to human language such as English, Sinhala, or Tamil."
+    },
+    {
+        "question": "What is a chatbot?",
+        "answer": "A chatbot is a software application that can communicate with users through text or voice. It can answer questions, provide support, or guide users."
+    },
+    {
+        "question": "What is a FAQ chatbot?",
+        "answer": "A FAQ chatbot answers user questions by matching them with the most similar question from a prepared FAQ dataset and returning the related answer."
+    },
+    {
+        "question": "How does this FAQ chatbot work?",
+        "answer": "This chatbot cleans the user's question, converts text into numerical vectors using TF-IDF, compares the user question with stored FAQ questions using cosine similarity, and returns the best matching answer."
+    },
+    {
+        "question": "What is TF-IDF?",
+        "answer": "TF-IDF is a text processing technique that converts words into numerical values based on how important those words are in a document or sentence."
+    },
+    {
+        "question": "What is cosine similarity?",
+        "answer": "Cosine similarity is a method used to compare two text vectors and measure how similar they are. A higher score means the texts are more similar."
+    },
+    {
+        "question": "Why do we preprocess text?",
+        "answer": "Text preprocessing is done to clean user input by converting text to lowercase, removing unnecessary symbols, and making the text easier for the model to compare."
+    },
+    {
+        "question": "What is Flask?",
+        "answer": "Flask is a lightweight Python web framework used to build web applications and connect frontend pages with backend Python logic."
+    },
+    {
+        "question": "What is scikit-learn?",
+        "answer": "Scikit-learn is a Python machine learning library that provides tools for text processing, machine learning models, and similarity calculations."
+    },
+    {
+        "question": "What is the purpose of this project?",
+        "answer": "The purpose of this project is to build a simple AI-based FAQ chatbot that can understand user questions and return the most relevant answer from a prepared FAQ dataset."
+    },
+    {
+        "question": "Can this chatbot answer any question?",
+        "answer": "No. This chatbot can only answer questions related to the FAQ dataset. If the question is not similar to any saved FAQ, it will show a fallback response."
+    },
+    {
+        "question": "How can I improve this chatbot?",
+        "answer": "You can improve this chatbot by adding more FAQ questions, using better NLP preprocessing, adding a database, using speech input, or connecting it with a larger AI model."
+    },
+    {
+        "question": "What is an API?",
+        "answer": "An API is a way for two software applications to communicate with each other. In web applications, APIs are often used to send and receive data between frontend and backend."
+    },
+    {
+        "question": "What is frontend?",
+        "answer": "Frontend is the part of the application that users see and interact with, such as buttons, text boxes, forms, and web pages."
+    },
+    {
+        "question": "What is backend?",
+        "answer": "Backend is the server-side part of an application that handles logic, data processing, and communication with the frontend."
+    },
+    {
+        "question": "What is Python used for in AI?",
+        "answer": "Python is widely used in AI because it has many powerful libraries for machine learning, data analysis, natural language processing, and deep learning."
+    },
+    {
+        "question": "What are the technologies used in this project?",
+        "answer": "This project uses Python, Flask, HTML, CSS, JavaScript, Scikit-learn, TF-IDF, and cosine similarity."
+    }
+]
